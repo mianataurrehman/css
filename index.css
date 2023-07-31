@@ -23,13 +23,10 @@ span {
     letter-spacing: 6px;
 }
 
-ul {
-    list-style: none;
-}
 
 li {
     display: inline-flex;
-    padding: 1% 3%;
+    padding: 1% 1.5%;
 }
 li:hover{
     color: rgb(0, 247, 255);
@@ -56,9 +53,7 @@ li:hover{
     width: 80%;
     margin: 0% 10% 0% 10%;
 }
-.p {
-    background-color: darkgray;
-}
+
 img {
     width: 100%;
     height: 600px;
