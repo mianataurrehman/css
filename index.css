@@ -3,6 +3,11 @@
     margin: 0;
     font-family: inherit;
 }
+body{
+        background: url(./img/spm.jpg);
+            background-position: center;
+            background-size: cover;
+}
 
 .heading {
     font-family: 'Times New Roman', Times, serif;
@@ -50,9 +55,6 @@ li:hover{
     height: 50px;
     width: 80%;
     margin: 0% 10% 0% 10%;
-}
-.border{
-border: 5px double skyblue;
 }
 .p {
     background-color: darkgray;

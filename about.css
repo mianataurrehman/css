@@ -3,6 +3,11 @@
     margin: 0;
     font-family: inherit;
 }
+body{
+        background: url(./img/bck.jpg);
+            background-position: center;
+            background-size: cover;
+}
 
 .heading {
     font-family: 'Times New Roman', Times, serif;

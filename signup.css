@@ -101,10 +101,27 @@ input[type=password] {
     color: rgb(0, 0, 0);
     padding-left: 25px;
 }
-button{
+.btn {
+    width: 100px;
+    height: 40px;
+    background: #00eeff;
+    border: 2px solid #00eeff;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.btn:hover {
+    color: #000;
+}
+
+.btn:focus {
     background-color: aqua;
     color: rgb(255, 0, 0);
     border: none;
     font-size: large;
-    border-radius: 5px;
+    border-radius: 8px;
 }

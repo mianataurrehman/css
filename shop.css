@@ -3,6 +3,11 @@
     margin: 0;
     font-family: inherit;
 }
+body {
+    background: url(./img/bck.jpg);
+    background-position: center;
+    background-size: cover;
+}
 
 .heading {
     font-family: 'Times New Roman', Times, serif;
@@ -53,13 +58,6 @@ li:hover{
     width: 80%;
     margin: 0% 10% 0% 10%;
 }
-
-/* For Only pic or Text border color Change
-div :hover {
-    border: 5px dotted green;
-    transform: scale(1.2 5s);
-}
-For pic or Text border color Change */
 .border{
 
 }
@@ -112,4 +110,9 @@ a{
 }
 
 .btn:focus{
-    outline: none;
+background-color: aqua;
+    color: rgb(255, 0, 0);
+    border: none;
+    font-size: large;
+    border-radius: 8px;
+}
